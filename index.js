@@ -10,7 +10,8 @@ const FFAR = {
     ammunition : ['38 Rnd','Jungle-Style Mag','38 Rnd Speed Mag','STANAG 50 Rnd','SAS Mag Clamp','Salvo 50 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Field Tape','SASR Jungle Grip','Serpent Wrap','Airborne Elastic Wrap'],
     name : 'FFAR',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/FFAR.png'
 };
 const KRIG6 = {
     muzzle : ['Muzzle Brake 5.56','Flashguard 5.56','Suppressor','Infantry Compensator','Socom Eliminator','Agency Suppressor'],
@@ -22,7 +23,8 @@ const KRIG6 = {
     ammunition : ['45 Rnd', 'Jungle-Style Mag', '45 Rnd Speed Mag', 'Stanag 60 Rnd', 'SAS Mag Clamp', 'Salvo 60 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Field Tape','SASR Jungle Grip','Serpent Wrap','Airborne Elastic Wrap'],
     name : 'KRIG6',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/Krig6.png'
 };
 const XM4 = {
     muzzle : ['Muzzle Brake 5.56','Flashguard 5.56','Suppressor','Infantry Compensator','Socom Eliminator','Agency Suppressor'],
@@ -34,7 +36,8 @@ const XM4 = {
     ammunition : ['45 Rnd', 'Jungle-Style Mag', '45 Rnd Speed Mag', 'Stanag 60 Rnd', 'SAS Mag Clamp', 'Salvo 60 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Field Tape','SASR Jungle Grip','Serpent Wrap','Airborne Elastic Wrap'],
     name : 'XM4',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/XM4.png'
 };
 const FARA = {
     muzzle : ['Muzzle Brake 5.56','Flashguard 5.56','Suppressor','Spetznaz Compensator','KGB Eliminator','GRU Suppressor'],
@@ -46,7 +49,8 @@ const FARA = {
     ammunition : ['40 Rnd', 'Taped Mags', '40 Rnd Speed Mag', 'Spetsnaz 50 Rnd', 'GRU Mag Clamp', 'VDV 50 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Serpent Wrap','Field Tape','Spetsnaz Field Grip','GRU Elastic Wrap'],
     name : 'FARA',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/FARA.png'
 };
 const QBZ83 = {
     muzzle : ['Muzzle Brake 5.56','Flashguard 5.56','Suppressor','Infantry Compensator','Socom Eliminator','Agency Suppressor'],
@@ -58,7 +62,8 @@ const QBZ83 = {
     ammunition : ['40 Rnd', 'Jungle-Style Mag', '40 Rnd Speed Mag', 'Stanag 50 Rnd', 'SAS Mag Clamp', 'Salvo 50 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Field Tape','SASR Jungle Grip','Serpent Wrap','Airborne Elastic Wrap'],
     name : 'QBZ83',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/QBZ.png'
 };
 const GROZA = {
     muzzle : ['Muzzle Brake 7.62','Flashguard 7.62','Suppressor','Spetznaz Compensator','KGB Eliminator','GRU Suppressor'],
@@ -70,7 +75,8 @@ const GROZA = {
     ammunition : ['40 Rnd Drum', 'Taped Mags', '40 Rnd Speed Mag', 'Spetsnaz 50 Rnd', 'GRU Mag Clamp', 'VDV 50 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Field Tape','Spetsnaz Field Grip','Serpent Wrap','GRU Elastic Wrap'],
     name : 'Groza',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/Groza.png'
 };
 const AK47BLOPS = {
     muzzle : ['Muzzle Brake 7.62','Flashguard 7.62','Suppressor','Spetznaz Compensator','KGB Eliminator','GRU Suppressor'],
@@ -82,7 +88,8 @@ const AK47BLOPS = {
     ammunition : ['40 Rnd Drum', 'Taped Mags', '40 Rnd Speed Mag', 'Bakelite 50 Rnd', 'GRU Mag Clamp', 'VDV 50 Rnd Fast Mag'],
     rearGrip : ['Speed Tape','Dropshot Wrap','Field Tape','Spetsnaz Jungle Grip','Serpent Wrap','GRU Elastic Wrap'],
     name : 'Black Ops AK-47',
-    type: 'AR'
+    type: 'AR',
+    img: 'COD Gun Images/AK47.png'
 };
 //BLOPS SMG's
 const MP5BLOPS = {
@@ -95,7 +102,8 @@ const MP5BLOPS = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Collapsed Stock', 'Duster Stock', 'No Stock', 'SAS Combat Stock', 'Raider Stock'],
     name : 'Black Ops MP5',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/BLOPSMP5.png'
 };
 const MILANO = {
     optic: ['Quickdot LED', 'Millstop Reflex', 'Kobra Red Dot', 'Visiontech 2x', 'Microflex LED', 'Hawksmoor', 'SnapPoint', 'Diamondback Reflex', 'Sillix Holoscout', 'Fastpoint Reflex', 'Axial Arms 3x', 'SUSAT Multizoom'],
@@ -107,7 +115,8 @@ const MILANO = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'Marathon Stock', 'SAS Combat Stock', 'Raider Stock'],
     name : 'Milano 821',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/MILANO.png'
 };
 const KSP45 = {
     optic: ['Quickdot LED', 'Millstop Reflex', 'Kobra Red Dot', 'Visiontech 2x', 'Microflex LED', 'Hawksmoor', 'SnapPoint', 'Diamondback Reflex', 'Sillix Holoscout', 'Fastpoint Reflex', 'Axial Arms 3x', 'SUSAT Multizoom'],
@@ -119,7 +128,8 @@ const KSP45 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'SAS Combat Stock', 'Raider Stock'],
     name : 'KSP 45',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/KSP45.png'
 };
 const MAC10 = {
     optic: ['Quickdot LED', 'Millstop Reflex', 'Kobra Red Dot', 'Visiontech 2x', 'Microflex LED', 'Hawksmoor', 'SnapPoint', 'Diamondback Reflex', 'Sillix Holoscout', 'Fastpoint Reflex', 'Axial Arms 3x', 'SUSAT Multizoom'],
@@ -131,7 +141,8 @@ const MAC10 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'SAS PKM Stock', 'Raider Stock'],
     name : 'MAC-10',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/MAC10.png'
 };
 const LC10 = {
     optic: ['Quickdot LED', 'Millstop Reflex', 'Kobra Red Dot', 'Visiontech 2x', 'Microflex LED', 'Hawksmoor', 'SnapPoint', 'Diamondback Reflex', 'Sillix Holoscout', 'Fastpoint Reflex', 'Axial Arms 3x', 'SUSAT Multizoom'],
@@ -143,7 +154,8 @@ const LC10 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'SAS Combat Stock', 'Raider Stock'],
     name : 'LC-10',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/LC10.png'
 };
 const AK74U = {
     optic: ['Quickdot LED', 'Millstop Reflex', 'Kobra Red Dot', 'Visiontech 2x', 'Microflex LED', 'Hawksmoor', 'SnapPoint', 'Diamondback Reflex', 'Sillix Holoscout', 'Fastpoint Reflex', 'Axial Arms 3x', 'SUSAT Multizoom'],
@@ -155,7 +167,8 @@ const AK74U = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'Spetznaz Field Grip', 'Serpent Wrap', 'GRU Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'Spetznaz PKM Stock', 'KGB Skeletal Stock'],
     name : 'AK-74u',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/AK74U.png'
 };
 const BULLFROG = {
     optic: ['Quickdot LED', 'Millstop Reflex', 'Kobra Red Dot', 'Visiontech 2x', 'Microflex LED', 'Hawksmoor', 'SnapPoint', 'Diamondback Reflex', 'Sillix Holoscout', 'Fastpoint Reflex', 'Axial Arms 3x', 'SUSAT Multizoom'],
@@ -167,7 +180,8 @@ const BULLFROG = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'Spetznaz Field Grip', 'Serpent Wrap', 'GRU Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'Spetznaz PKM Stock', 'KGB Skeletal Stock'],
     name : 'Bullfrog',
-    type: 'SMG'
+    type: 'SMG',
+    img: 'COD Gun Images/BULLFROG.png'
 };
 //BLOPS LMG's
 const STONER63 = {
@@ -180,7 +194,8 @@ const STONER63 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Pad', 'No Stock', 'SAS Combat Stock', 'Raider Pad'],
     name : 'Stoner 63',
-    type: 'LMG'
+    type: 'LMG',
+    img: 'COD Gun Images/STONER63.png'
 };
 const RPD = {
     optic: ['Kobra Red Dot', 'Axial Arms 3x', 'Visiontech 2x', 'Millstop Reflex', 'Sillix Holoscout', 'Royal & Kross 4x', 'SUSAT Multizoom', 'Quickdot LED', 'Hawksmoor', 'Hangman RF', 'Vulture Custom Zoom', 'Noch Sova Thermal'],
@@ -192,7 +207,8 @@ const RPD = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'Spetsnaz Field Grip', 'Serpent Wrap', 'GRU Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'Spetsnaz PKM Stock', 'KGB Skeletal Stock'],
     name : 'RPD',
-    type: 'LMG'
+    type: 'LMG',
+    img: 'COD Gun Images/RPD.png'
 };
 const M60 = {
     optic: ['Kobra Red Dot', 'Axial Arms 3x', 'Visiontech 2x', 'Millstop Reflex', 'Sillix Holoscout', 'Royal & Kross 4x', 'SUSAT Multizoom', 'Quickdot LED', 'Hawksmoor', 'Hangman RF', 'Vulture Custom Zoom', 'AN/PVS-4 Thermal'],
@@ -204,7 +220,8 @@ const M60 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Marathon Stock', 'Duster Stock', 'No Stock', 'SAS Combat Stock', 'Raider Pad'],
     name : 'M60',
-    type: 'LMG'
+    type: 'LMG',
+    img: 'COD Gun Images/M60.png'
 };
 //Tactical Rifles
 const TYPE63 = {
@@ -217,7 +234,8 @@ const TYPE63 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'Spetsnaz Field Grip', 'Serpent Wrap', 'Gru Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Pad', 'No Stock', 'Spetsnaz PKM Stock', 'KGB Pad'],
     name : 'Type 63',
-    type: 'Tactical Rifle'
+    type: 'Tactical Rifle',
+    img: 'COD Gun Images/TYPE63.png'
 };
 const M16 = {
     optic: ['Visiontech 2x', 'Kobra Red Dot', 'Axial Arms 3x', 'Millstop Reflex','Royal & Kross 4x', 'Quickdot LED', 'Hawksmoor', 'Sillix Holoscout', 'SUSAT Multizoom', 'Hangman RF', 'Vulture Custom Zoom', 'AN/PVS Thermal'],
@@ -229,7 +247,8 @@ const M16 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Marathon Stock', 'Duster Pad', 'CQB Pad', 'SAS Combat Stock', 'Raider Pad'],
     name : 'M16',
-    type: 'Tactical Rifle'
+    type: 'Tactical Rifle',
+    img: 'COD Gun Images/M16.png'
 };
 const AUG = {
     optic: ['Visiontech 2x', 'Kobra Red Dot', 'Axial Arms 3x', 'Millstop Reflex','Royal & Kross 4x', 'Quickdot LED', 'Hawksmoor', 'Sillix Holoscout', 'SUSAT Multizoom', 'Hangman RF', 'Vulture Custom Zoom', 'AN/PVS Thermal'],
@@ -241,7 +260,8 @@ const AUG = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Marathon Stock', 'Duster Pad', 'CQB Pad', 'SAS Combat Stock', 'Raider Pad'],
     name : 'AUG',
-    type: 'Tactical Rifle'
+    type: 'Tactical Rifle',
+    img: 'COD Gun Images/AUG.png'
 };
 const DMR14 = {
     optic: ['Visiontech 2x', 'Kobra Red Dot', 'Axial Arms 3x', 'Millstop Reflex','Royal & Kross 4x', 'Quickdot LED', 'Hawksmoor', 'Sillix Holoscout', 'SUSAT Multizoom', 'Hangman RF', 'Vulture Custom Zoom', 'AN/PVS Thermal'],
@@ -253,7 +273,8 @@ const DMR14 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Pad', 'No Stock', 'SAS Combat Stock', 'Raider Pad'],
     name : 'DMR 14',
-    type: 'Tactical Rifle'
+    type: 'Tactical Rifle',
+    img: 'COD Gun Images/DMR.png'
 };
 //Sniper Rifles
 const PELINGTON703 = {
@@ -266,7 +287,8 @@ const PELINGTON703 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'CQB Pad', 'Duster Pad', 'Marathon Stock', 'SAS Combat Stock', 'Raider Pad'],
     name : 'Pelington 703',
-    type: 'Sniper Rifle'
+    type: 'Sniper Rifle',
+    img: 'COD Gun Images/PELLINGTON.png'
 };
 const LW3TUNDRA = {
     optic: ['Visiontech 2x', 'Kobra Red Dot', 'Axial Arms 3x', 'Iron Sights', 'Sillix Holoscout', 'Royal & Kross 4x', 'SUSAT Multizoom', 'Vulture Custom Zoom', 'Millstop Reflex', 'Hangman RF','Ultrazoom Custom', 'AN/PVS Thermal'],
@@ -278,7 +300,8 @@ const LW3TUNDRA = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'CQB Pad', 'Duster Pad', 'Marathon Stock', 'SAS Combat Stock', 'Raider Pad'],
     name : 'LW3 Tundra',
-    type: 'Sniper Rifle'
+    type: 'Sniper Rifle',
+    img: 'COD Gun Images/TUNDRA.png'
 };
 const M82 = {
     optic: ['Visiontech 2x', 'Kobra Red Dot', 'Axial Arms 3x', 'Iron Sights', 'Sillix Holoscout', 'Royal & Kross 4x', 'SUSAT Multizoom', 'Vulture Custom Zoom', 'Millstop Reflex', 'Hangman RF','Ultrazoom Custom', 'AN/PVS Thermal'],
@@ -290,7 +313,8 @@ const M82 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Marathon Stock', 'Duster Pad', 'CQB Pad', 'SAS Combat Stock', 'Raider Pad'],
     name : 'M82',
-    type: 'Sniper Rifle'
+    type: 'Sniper Rifle',
+    img: 'COD Gun Images/M82.png'
 };
 const ZRG = {
     optic: ['Visiontech 2x', 'Kobra Red Dot', 'Axial Arms 3x', 'Iron Sights', 'Sillix Holoscout', 'Royal & Kross 4x', 'SUSAT Multizoom', 'Vulture Custom Zoom', 'Millstop Reflex', 'Hangman RF','Ultrazoom Custom', 'AN/PVS Thermal'],
@@ -302,7 +326,8 @@ const ZRG = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Marathon Stock', 'Duster Pad', 'CQB Pad', 'SAS Combat Stock', 'Raider Stock'],
     name : 'ZRG 20mm',
-    type: 'Sniper Rifle'
+    type: 'Sniper Rifle',
+    img: 'COD Gun Images/ZRG.png'
 };
 //BLOPS Shotguns
 const HAUER77 = {
@@ -314,7 +339,8 @@ const HAUER77 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Shotgun Stock', 'Duster Pad', 'No Stock', 'SAS Combat Stock', 'Marathon Stock'],
     name:'Hauer 77',
-    type:'Shotgun'
+    type:'Shotgun',
+    img: 'COD Gun Images/HAUER77.png'
 };
 const GALLO = {
     optic : ['Millstop Reflex', 'Quickdot Led', 'Microflex LED'],
@@ -325,7 +351,8 @@ const GALLO = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'SAS Combat Stock', 'Marathon Stock'],
     name:'Gallo SA12',
-    type:'Shotgun'
+    type:'Shotgun',
+    img: 'COD Gun Images/GALLO.png'
 };
 const STREETSWEEPER = {
     optic : ['Millstop Reflex', 'Quickdot Led', 'Microflex LED'],
@@ -336,7 +363,8 @@ const STREETSWEEPER = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Tactical Stock', 'Wire Stock', 'Duster Stock', 'No Stock', 'SAS Combat Stock', 'Marathon Stock'],
     name:'Streetsweeper',
-    type:'Shotgun'
+    type:'Shotgun',
+    img: 'COD Gun Images/STREETSWEEPER.png'
 };
 //Secondaries
 //BLOPS Pistols
@@ -349,7 +377,8 @@ const P1911 = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Dual Wield'],
     name:'1911',
-    type:'Pistol'
+    type:'Pistol',
+    img: 'COD Gun Images/1911.png'
 };
 const MAGNUM = {
     optic : ['Quickdot LED', 'Otero Mini Reflex', 'Microflex LED'],
@@ -360,7 +389,8 @@ const MAGNUM = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Dual Wield'],
     name:'Magnum',
-    type:'Pistol'
+    type:'Pistol',
+    img: 'COD Gun Images/Magnum.png'
 };
 const DIAMATTI = {
     optic : ['Quickdot LED', 'Otero Mini Reflex', 'Microflex LED'],
@@ -371,28 +401,34 @@ const DIAMATTI = {
     rearGrip:['Speed Tape', 'Dropshot Wrap', 'Field Tape', 'SASR Jungle Grip', 'Serpent Wrap', 'Airborne Elastic Wrap'],
     stock:['Dual Wield'],
     name:'Diamatti',
-    type:'Pistol'
+    type:'Pistol',
+    img: 'COD Gun Images/DIAMATTI.png'
 };
 //BLOPS Launchers
 const RPG7 = {
     name:'RPG-7',
-    type:'Launcher'
+    type:'Launcher',
+    img: 'COD Gun Images/RPG.png'
 };
 const M79 = {
     name:'M79',
-    type:'Launcher'
+    type:'Launcher',
+    img: 'COD Gun Images/M79.png'
 };
 const CIGMA2 = {
     name:'Cigma 2',
-    type:'Launcher'
+    type:'Launcher',
+    img: 'COD Gun Images/CIGMA.png'
 };
 //BLOPS Melee
 const Melee = {
     name:'Choice of Melee Weapon',
-    type:'Melee'
+    type:'Melee',
+    img: 'COD Gun Images/MELEE.png'
 }
-function randomAR(obj, second) {
+function randomAR() {
     let AR = Math.floor(Math.random()*7);
+    let obj;
     if(AR == 0)
     {
         obj = FFAR;
@@ -423,21 +459,21 @@ function randomAR(obj, second) {
     }
     let keys = Object.keys(obj);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -476,7 +512,7 @@ function randomAR(obj, second) {
                 B[i] = (obj.rearGrip[Math.floor(Math.random()*6)]);
             }
         }
-    return(`${obj.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+    return [obj.name,B[0],B[1],B[2],B[3],B[4],obj.type,obj.img];    
 }
 function randomSMG(){
     let SMG = Math.floor(Math.random()*7);
@@ -510,21 +546,21 @@ function randomSMG(){
     }
     let keys = Object.keys(obj);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -563,7 +599,7 @@ function randomSMG(){
                 B[i] = (obj.rearGrip[Math.floor(Math.random()*6)]);
             }
         }
-        return(`${obj.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+        return [obj.name,B[0],B[1],B[2],B[3],B[4],obj.type,obj.img];    
 }
 function randomLMG(){
     let LMG = Math.floor(Math.random()*3);
@@ -581,21 +617,21 @@ function randomLMG(){
     }
     let keys = Object.keys(obj);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -634,7 +670,7 @@ function randomLMG(){
                 B[i] = (obj.rearGrip[Math.floor(Math.random()*6)]);
             }
         }
-        return(`${obj.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+        return [obj.name,B[0],B[1],B[2],B[3],B[4],obj.type,obj.img];    
 }
 function randomTacRifle(){
     let TAC = Math.floor(Math.random()*4);
@@ -656,21 +692,21 @@ function randomTacRifle(){
     }
     let keys = Object.keys(obj);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -709,7 +745,7 @@ function randomTacRifle(){
                 B[i] = (obj.rearGrip[Math.floor(Math.random()*6)]);
             }
         }
-        return(`${obj.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+        return [obj.name,B[0],B[1],B[2],B[3],B[4],obj.type,obj.img];    
 }
 function randomSniper(){
     let sniper = Math.floor(Math.random()*4);
@@ -731,21 +767,21 @@ function randomSniper(){
     }
     let keys = Object.keys(obj);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -784,7 +820,7 @@ function randomSniper(){
                 B[i] = (obj.rearGrip[Math.floor(Math.random()*6)]);
             }
         }
-        return(`${obj.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+        return [obj.name,B[0],B[1],B[2],B[3],B[4],obj.type,obj.img];    
 }
 function randomShotgun(){
     let shot = Math.floor(Math.random()*3);
@@ -802,21 +838,21 @@ function randomShotgun(){
     }
     let keys = Object.keys(obj);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -855,7 +891,7 @@ function randomShotgun(){
                 B[i] = (obj.rearGrip[Math.floor(Math.random()*6)]);
             }
         }
-        return(`${second.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+        return [obj.name,B[0],B[1],B[2],B[3],B[4],obj.type,obj.img];    
 }
 function randomPistol(){
     let pistol = Math.floor(Math.random()*3);
@@ -873,21 +909,21 @@ function randomPistol(){
     }
     let keys = Object.keys(second);
     let A = [];
-    A[0] = Math.floor(Math.random()*(keys.length-2));
+    A[0] = Math.floor(Math.random()*(keys.length-3));
     do{
-        A[1] = Math.floor(Math.random()*(keys.length-2));
+        A[1] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[1] == A[0]);
     do{
-        A[2] = Math.floor(Math.random()*(keys.length-2));
+        A[2] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[2] == A[0] || A[2] == A[1]);
     do{
-        A[3] = Math.floor(Math.random()*(keys.length-2));
+        A[3] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[3] == A[1] || A[3] == A[1] || A[3] == A[2]);
     do{
-        A[4] = Math.floor(Math.random()*(keys.length-2));
+        A[4] = Math.floor(Math.random()*(keys.length-3));
     }
     while(A[4] == A[0] || A[4] == A[1] || A[4] == A[2] || A[4] == A[3]);
     let B=[];
@@ -922,7 +958,7 @@ function randomPistol(){
                 B[i] = second.stock[0];
             }
         }
-        return(`${second.name}: Random attachments are ${B[0]}, ${B[1]}, ${B[2]}, ${B[3]}, ${B[4]}`);
+        return [second.name,B[0],B[1],B[2],B[3],B[4],second.type,second.img];
 }
 function randomLauncher(){
     let launcher = Math.floor(Math.random()*3);
@@ -938,7 +974,7 @@ function randomLauncher(){
     {
         second = CIGMA2;
     }
-    return `${second.name}`;
+    return [second.name,'noAttach',second.type,second.img];
 }
 //Functions for determining primary weapon and secondary weapon
 function primaryClass()
@@ -982,168 +1018,245 @@ function secondaryClass()
     }
     else if(weaponType==2)
     {
-        return 'Melee Weapon of Choice';
+        return ['Melee Weapon of Choice','noAttach','Melee','COD Gun Images/MELEE.png'];
     }
 }
-function randomPerks(red){
+function randomPerks(){
     let blue = Math.floor(Math.random()*6);
     let yellow = Math.floor(Math.random()*6);
+    let red = Math.floor(Math.random()*6);
     if(blue == 0)
     {
         blue = 'Double Time';
+        document.getElementById('perk1Image').src = 'COD Gun Images/DOUBLETIME.png';
     }
     else if(blue == 1)
     {
         blue = 'E.O.D.';
+        document.getElementById('perk1Image').src = 'COD Gun Images/EOD.png';
     }
     else if(blue == 2)
     {
         blue = 'Scavenger';
+        document.getElementById('perk1Image').src = 'COD Gun Images/SCAVENGER.png';
     }
     else if(blue == 3)
     {
         blue = 'Cold-Blooded';  
+        document.getElementById('perk1Image').src = 'COD Gun Images/COLDBLOODED.png';
     }
     else if(blue == 4)
     {
         blue = 'Kill Chain';
+        document.getElementById('perk1Image').src = 'COD Gun Images/KILLCHAIN.png';
     }
     else if(blue == 5)
     {
-        blue = 'Quick Fix';   
+        blue = 'Quick Fix';
+        document.getElementById('perk1Image').src = 'COD Gun Images/QUICKFIX.png';   
     }
     if(red == 0)
     {
         red = 'Restock';
+        document.getElementById('perk2Image').src = 'COD Gun Images/RESTOCK.png';   
     }
     else if(red == 1)
     {
         red = 'Hardline';
+        document.getElementById('perk2Image').src = 'COD Gun Images/HARDLINE.png';
     }
     else if(red == 2)
     {
         red = 'Overkill';
+        document.getElementById('perk2Image').src = 'COD Gun Images/OVERKILL.png';
     }
     else if(red == 3)
     {
         red = 'High Alert';  
+        document.getElementById('perk2Image').src = 'COD Gun Images/HIGHALERT.png';
     }
     else if(red == 4)
     {
         red = 'Ghost';
+        document.getElementById('perk2Image').src = 'COD Gun Images/GHOST.png';
     }
     else if(red == 5)
     {
-        red = 'Pointman';   
+        red = 'Pointman';  
+        document.getElementById('perk2Image').src = 'COD Gun Images/POINTMAN.png'; 
     }
     if(yellow == 0)
     {
         yellow = 'Tune Up';
+        document.getElementById('perk3Image').src = 'COD Gun Images/TUNEUP.png'; 
     }
     else if(yellow == 1)
     {
         yellow = 'Amped';
+        document.getElementById('perk3Image').src = 'COD Gun Images/AMPED.png'; 
     }
     else if(yellow == 2)
     {
         yellow = 'Shrapnel';
+        document.getElementById('perk3Image').src = 'COD Gun Images/SHRAPNEL.png'; 
     }
     else if(yellow == 3)
     {
         yellow = 'Battle Hardened';  
+        document.getElementById('perk3Image').src = 'COD Gun Images/BATTLEHARDENED.png'; 
     }
     else if(yellow == 4)
     {
         yellow = 'Spotter';
+        document.getElementById('perk3Image').src = 'COD Gun Images/SPOTTER.png'; 
     }
     else if(yellow == 5)
     {
         yellow = 'Tracker';   
+        document.getElementById('perk3Image').src = 'COD Gun Images/TRACKER.png'; 
     }
-    document.getElementById('perks').innerHTML = `Perks are ${blue}, ${red}, ${yellow}.`
-    return red;
+    let perksArray = [blue,red,yellow];
+    return perksArray;
 }
 function randomLethal(){
     let lethal = Math.floor(Math.random()*8)
     if(lethal == 0)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: Claymore';
+        document.getElementById('lethal').innerHTML = 'Claymore';
+        document.getElementById('lethalImage').src = 'COD Gun Images/CLAYMORE.png';
     }
     else if(lethal == 1)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: Frag Grenade';
+        document.getElementById('lethal').innerHTML = 'Frag Grenade';
+        document.getElementById('lethalImage').src = 'COD Gun Images/FRAG.png';
     }
     else if(lethal == 2)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: Molotov Cocktail';
+        document.getElementById('lethal').innerHTML = 'Molotov Cocktail';
+        document.getElementById('lethalImage').src = 'COD Gun Images/MOLOTOV.png';
     }
     else if(lethal == 3)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: C4';
+        document.getElementById('lethal').innerHTML = 'C4';
+        document.getElementById('lethalImage').src = 'COD Gun Images/C4.png';
     }
     else if(lethal == 4)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: Semtex';
+        document.getElementById('lethal').innerHTML = 'Semtex';
+        document.getElementById('lethalImage').src = 'COD Gun Images/SEMTEX.png';
     }
     else if(lethal == 5)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: Throwing Knife';
+        document.getElementById('lethal').innerHTML = 'Throwing Knife';
+        document.getElementById('lethalImage').src = 'COD Gun Images/THROWINGKNIFE.png';
     }
     else if(lethal == 6)
     {
-        document.getElementById('lethal').innerHTML = 'Lethal: Proximity Mine';
+        document.getElementById('lethal').innerHTML = 'Proximity Mine';
+        document.getElementById('lethalImage').src = 'COD Gun Images/PROXIMITYMINE.png';
     }
     else if(lethal == 7)
     {
         document.getElementById('lethal').innerHTML = 'Lethal: Thermite';
+        document.getElementById('lethalImage').src = 'COD Gun Images/THERMITE.png';
     }
 }
 function randomTactical(){
     let Tactical = Math.floor(Math.random()*8)
     if(Tactical == 0)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Flash Grenade';
+        document.getElementById('tactical').innerHTML = 'Flash Grenade';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/FLASH.png';
     }
     else if(Tactical == 1)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Stun Grenade';
+        document.getElementById('tactical').innerHTML = 'Stun Grenade';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/STUN.png';
     }
     else if(Tactical == 2)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Smoke Grenade';
+        document.getElementById('tactical').innerHTML = 'Smoke Grenade';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/SMOKE.png';
     }
     else if(Tactical == 3)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Snapshot Grenade';
+        document.getElementById('tactical').innerHTML = 'Snapshot Grenade';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/SNAPSHOT.png';
     }
     else if(Tactical == 4)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Heartbeat Sensor';
+        document.getElementById('tactical').innerHTML = 'Heartbeat Sensor';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/HEARTBEATSENSOR.png';
     }
     else if(Tactical == 5)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Stim';
+        document.getElementById('tactical').innerHTML = 'Stim';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/STIM.png';
     }
     else if(Tactical == 6)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Decoy Grenade';
+        document.getElementById('tactical').innerHTML = 'Decoy Grenade';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/DECOY.png';
     }
     else if(Tactical == 7)
     {
-        document.getElementById('tactical').innerHTML = 'Tactical: Gas Grenade';
+        document.getElementById('tactical').innerHTML = 'Gas Grenade';
+        document.getElementById('tacticalImage').src = 'COD Gun Images/GASGRENADE.png';
     }
 }
 function randomAll(){
-    let red = Math.floor(Math.random()*6);
-    randomPerks(red);
-    document.getElementById('gun1').innerHTML = primaryClass();
-    if(red == 2)
+    //resets attachments to empty
+    document.getElementById('gun2Attach1').innerHTML = '';
+    document.getElementById('gun2Attach2').innerHTML = '';
+    document.getElementById('gun2Attach3').innerHTML = '';
+    document.getElementById('gun2Attach4').innerHTML = '';
+    document.getElementById('gun2Attach5').innerHTML = '';
+    let perksArray = randomPerks();
+    document.getElementById('perk1').innerHTML = perksArray[0];
+    document.getElementById('perk2').innerHTML = perksArray[1];
+    document.getElementById('perk3').innerHTML = perksArray[2];
+    //document.getElementById('perk1Image').src = perksArray
+    let gun1 = primaryClass();
+    document.getElementById('gun1').innerHTML = gun1[0];
+    document.getElementById('gun1Attach1').innerHTML = gun1[1];
+    document.getElementById('gun1Attach2').innerHTML = gun1[2];
+    document.getElementById('gun1Attach3').innerHTML = gun1[3];
+    document.getElementById('gun1Attach4').innerHTML = gun1[4];
+    document.getElementById('gun1Attach5').innerHTML = gun1[5];
+    document.getElementById('gun1Type').innerHTML = gun1[6];
+    document.getElementById('gun1Image').src = gun1[7];
+    if(perksArray[1] == 'Overkill')
     {
-        document.getElementById('gun2').innerHTML = primaryClass();
+        let gun2 = primaryClass()
+        document.getElementById('gun2').innerHTML = gun2[0];
+        document.getElementById('gun2Attach1').innerHTML = gun2[1];
+        document.getElementById('gun2Attach2').innerHTML = gun2[2];
+        document.getElementById('gun2Attach3').innerHTML = gun2[3];
+        document.getElementById('gun2Attach4').innerHTML = gun2[4];
+        document.getElementById('gun2Attach5').innerHTML = gun2[5];
+        document.getElementById('gun2Type').innerHTML = gun2[6];
+        document.getElementById('gun2Image').src = gun2[7];
     }
     else
     {
-        document.getElementById('gun2').innerHTML = secondaryClass();
+        let gun2 = secondaryClass();
+        if(gun2[1] == 'noAttach')
+        {
+            document.getElementById('gun2').innerHTML = gun2[0];
+            document.getElementById('gun2Type').innerHTML = gun2[2];
+            document.getElementById('gun2Image').src = gun2[3];
+        }
+        else
+        {
+            document.getElementById('gun2').innerHTML = gun2[0];
+            document.getElementById('gun2Attach1').innerHTML = gun2[1];
+            document.getElementById('gun2Attach2').innerHTML = gun2[2];
+            document.getElementById('gun2Attach3').innerHTML = gun2[3];
+            document.getElementById('gun2Attach4').innerHTML = gun2[4];
+            document.getElementById('gun2Attach5').innerHTML = gun2[5];
+            document.getElementById('gun2Type').innerHTML = gun2[6];
+            document.getElementById('gun2Image').src = gun2[7];
+        }
     }
     randomLethal();
     randomTactical();
