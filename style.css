@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    color:black;
+}
+html{
+    background-color:rgb(247, 247, 247)
+}
+h1{
+    font-size:5rem;
+}
+h2{
+    font-size:1.5rem;
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: min-content min-content min-content min-content;
+    height:auto;
+    width:100vw;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    grid-column: 1/span 12;
+    grid-row: 1/span 1;
+    padding:1%;
+}
+#restaurantTitle{
+    grid-column: 1/span 12;
+    grid-row: 2/span 1;
+    display:flex;
+    flex-direction:column;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+.main{
+    grid-column: 1/span 12;
+    grid-row: 3/span 1;
+    display:flex;
+    justify-content:start;
+    flex-direction:column;
+}
+.footer{
+    grid-column: 2/span 10;
+    grid-row: 4/span 1;
+    border-top:1px solid #2f3c7e;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+
+#blankSpace{
+    width:200px;
+    height:auto;
+}
+#logo{
+    height:100%;
+    width:fit-content;
+    display:flex;
+    align-items: center;
+}
+#shirleysSoupTitle{
+    font-family: 'Homemade Apple', cursive;
+}
+#quoteBlankSpace{
+    width:10%;
+    height:auto;
+}
+#shirleysSoupKitchen{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#titleQuote{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    font-style:italic;
+    padding-left: 5%;
+}
+#mainSoupPhoto{
+    display:block;
+    height:30%;
+    width:100%;
+    overflow:hidden;
+}
+#tomatoSoup{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+#blurbOne{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+#blurbOneText{
+    width:40%;
+    height:auto;
+}
+#blurbOnePhoto{
+    width:400px;
+    height:auto;
+    overflow:hidden;
+}
+#menuTitle{
+    width:fit-content;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:fit-content;
+    padding-bottom:5%;
+}
+#menuTitleText{
+    padding-right:30%;
+    font-family: 'Homemade Apple', cursive;
+}
+#menuTitleBlurb{
+    padding-left:10%;
+    font-style: italic;
+}
+#menuSelect{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+}
+#menu{
+    display:flex;
+    justify-content:center;
+    padding-top:5%;
+}
+#menuPic{
+    width:85%;
+    border:3px solid black;
+    box-shadow: 5px 10px;
+    
+}
+button{
+    background-color: #2f3c7e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#newsletter button{
+    padding: 5px 12px;
+    font-size:0.75rem;
+}
+  #outdoorSeating{
+      margin-top:5%;
+      margin-bottom:5%;
+      background-color:black;
+      position:relative;
+  }
+  #outdoorPic
+  {
+      width:100%;
+      height:auto;
+      opacity:0.4;
+      position:relative;
+      z-index:0;
+  }
+  #outdoorText{ 
+      position:absolute;
+      text-align:center;
+      top: 50%;
+      width: 100%;
+      z-index:1;
+      color:rgb(247, 247, 247);
+  }
+  #broth{
+    padding-top:3%;
+    padding-bottom:5%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  #brothPic{
+      width:45%;
+      padding-right:2%;
+      padding-left:2%;
+  }
+  #brothBlurb{
+      display:flex;
+      flex-direction:column;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  #brothBlurb h1{
+    font-family: 'Homemade Apple', cursive;
+  }
+  #review{
+      padding:5%;
+  }
+  #review h1{
+      font-size: 2.5rem;
+      font-style: italic;
+  }
+  #tryOurTomato{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-around;
+      align-items: center;
+      padding:5%;
+  }
+  #tomatoText{
+      text-align: center;
+  }
+  #tomatoText h1{
+    font-family: 'Homemade Apple', cursive;
+    line-height: 7rem;
+}
+  #tomatoPic{
+      width:50%;
+  }
+  #socials{
+      display:flex;
+      flex-direction: column;
+      justify-content:space-between;
+  }
+  #socialPics{
+      display:flex;
+      flex-direction: row;
+      justify-content:space-between;
+  }
+  .footer h4{
+      font-size: 0.8rem;
+      line-height: 2.0;
+  }
+#footerExceptCopywrite{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+#copywrite{
+    padding-top:4%;
+}
+@media only screen and (min-width: 1440px){
+    #mainSoupPhoto{
+        height: 400px;
+    }
+    #blurbOne{
+        padding-top:4%;
+        padding-bottom:2%;
+    }
+    #menuTitle{
+        padding-bottom:2%;
+    }
+    #blurbOnePhoto{
+        width:700px;
+    }
+    #menuPic{
+        width:30%;
+    }
+    #menu{
+        padding-top:1%;
+    }
+    #menuSelect{
+        justify-content:center;
+        width:100%; 
+    }
+    button{
+        margin-left:20px;
+        margin-right:20px;
+    }
+    html{
+        font-size: 25px;
+    }
+}
