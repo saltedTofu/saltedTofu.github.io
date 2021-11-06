@@ -4,3 +4,6 @@ function changeToSpoons(){
 function changeToFood(){
     document.getElementById('menuPic').src="./FoodMenu.jpg";
 }
+function changeToSpecial(){
+    document.getElementById('menuPic').src="./Event Menu.png"
+}
