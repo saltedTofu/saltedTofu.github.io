@@ -196,6 +196,7 @@ button{
   }
   #brothPic{
       width:45%;
+      height:auto;
       padding-right:2%;
       padding-left:2%;
   }
@@ -253,6 +254,9 @@ button{
   }
 #copywrite{
     padding-top:4%;
+}
+a{
+    font-size: 1rem;
 }
 @media only screen and (min-width: 1440px){
     #mainSoupPhoto{
